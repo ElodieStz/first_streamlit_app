@@ -29,8 +29,6 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 
-Uninstall snowflake
-pip uninstall snowflake
 Install snowflake-python-connector
 pip install snowflake-connector-python==2.8.3
 
